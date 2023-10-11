@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select, 
+#genero{
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.end_rua,
+.cid_est,
+.gen_data,
+.rg_cpf{
+    display: flex;
+    flex-direction: row;
+}
+
+#genero{
+    width: 10rem;
+}
+
+#rua{
+    width: 31.5rem;
+}
+
+#numero{
+    margin-left: 4px;
+    width: 4.6rem;
+}
+
+#cidade{
+    width: 32rem;
+}
+
+select,
+#estado{
+    width: 3rem;
+    margin-left: 4px;
+}
+
+.caixa_botaozinho{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.botaozinho{
+    display: flex;
+    width: 8rem;
+    height: 2rem;
+    color: white;
+    background-color: rgb(71, 71, 149);
+    border-radius: 4rem;
+    border: solid 1px black;
+}
